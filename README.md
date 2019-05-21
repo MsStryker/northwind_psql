@@ -12,7 +12,7 @@ never be checked into source control, but they are here for simplicity.
 The initial ERD for Microsoft SQL is as follows:
 
 ![Entity Relationship Diagram Microsoft SQL](assets/ERD_SQL_Initial.png)
-*SQL ERD*
+*SQL Server ERD*
 
 Some modifications have been made for PostgreSQL and they are as follows:
 
