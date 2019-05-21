@@ -1,0 +1,22 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: northwind
+      POSTGRES_USER: northwind_user
+      POSTGRES_PASSWORD: thewindisblowing
+    ports:
+      - 5432:5432
+    volumes:
+      - ./src:/docker-entrypoint-initdb.d
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
