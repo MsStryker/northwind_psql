@@ -19,6 +19,8 @@ Some modifications have been made for PostgreSQL and they are as follows:
 ![Entity Relationship Diagram](assets/ERD.png)
 *PostgreSQL ERD*
 
+You can find several examples of this database in the [w3schools.com tutorials](https://www.w3schools.com/sql/default.asp). 
+You should take note that there are variations to the schema, where snake case naming convention is used.
 
 ## Requirements
 
